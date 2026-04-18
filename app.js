@@ -1,9 +1,5 @@
-const num = 12;
+const path = require('path')
+console.log(path.sep)
 
-if(num > 15){
-    console.log('large number')
-}else{
-    console.log('small number')
-}
-
-console.log('First node code!!!');
+const filePath = path.join('/content', 'subfolder', 'test.txt')
+console.log(filePath);
