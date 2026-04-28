@@ -22,3 +22,7 @@ setTimeout(() => {
 console.log('third');
 //completed and exited operating system process 
 // ans - first, third, second
+
+
+// Nodemon automatically restarts your Node.js application whenever you make changes to your code. Instead of doing "node js_filename" every single time.
+// It saves time during development by removing the need to manually stop and restart the server.
